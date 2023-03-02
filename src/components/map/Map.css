@@ -1,0 +1,33 @@
+.containerBoard {
+    width: 90vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mapIso {
+    width: 100%;
+}
+
+.containerCar{
+width: 60px;
+height: 60px;
+/* border: 2px solid yellow; */
+}
+
+.car2 {
+/* border: 2px solid blue; */
+width: 100%;
+height: 100%;
+transition: 2s;
+}
+
+.car {
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100%;
+    transform: translate3d(50px, -42px, 42px);
+    transition: 2s;
+    }
